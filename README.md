@@ -22,6 +22,17 @@ This project contains two folders named `arcan-output` and `designite-output`.
 |--ArcanProjectsSummary.xlsx: the summary of the metrics or all projects.
 ```
 
+`designite-output` contains the results of the projects analyzed with Designite. All Designite projects contain a .zip file with several csv files (each one corresponding to each package in the source code project).
+
+```
+--designite-output
+|--DotNet-Istambul
+  |-- Archsmells_DesignSmells_Donet-Istambul.zip
+|--Enterprise-planner
+|-- . . .
+|--DesigniteProjectsSummary.xlsx: the summary of the metrics or all projects.
+```
+
 ## Project Analyzed with Arcan
 
 This is the list of the projects analyzed with Arcan
